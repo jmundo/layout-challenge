@@ -1,0 +1,149 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300);
+
+body {
+	font-family: 'Lato', 'Helvetica Neue', 'sans-serif';
+	font-size: 16px;
+	font-weight: 300;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+    color: #0000EE;
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', 'Helvetica Neue', 'sans-serif';
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 300%;
+	margin: 0;
+}
+
+h2 {
+	color: #505050;
+	font-size: 150%;
+	margin: 0;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+.container-fluid {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+main {
+	background-image: url(../img/ricepaper_v3.png);
+	opacity: 0.9;
+	margin-right: 20px;
+}
+
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px solid #EA4A00;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+
+header p {
+	font-size: 120%;
+	color: #EEEEEE;
+}
+
+.general {
+	padding: 1em;
+}
+
+.menu {
+	padding: 1em;
+	background-color: rgba(207, 205, 140, 0.5);
+}
+
+dt { 
+	font-weight: 400;
+}
+
+dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.about {
+	padding: 1em;
+}
+
+.lead {
+	display: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 1em;
+}
+
+nav a:link, nav a:visited {
+	text-decoration: none;
+	color: #55E;
+}
+
+nav a:hover, nav a:focus {
+	text-decoration: none;
+    color: #00E;
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: 5px solid #EC791F;
+	font-size: 80%;
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+	body {
+		font-size: 18px;
+		background-image: url(../img/background.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.container-fluid {
+		margin-left: 30%;
+		margin-right: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.lead {
+		display: inline;
+	}
+
+	header {
+		position: relative;
+	}
+
+	nav {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
