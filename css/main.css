@@ -40,6 +40,8 @@ h3 {
 .container-fluid {
 	margin-top: 0;
 	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 main {
@@ -53,7 +55,6 @@ header {
 	background-color: #FA5A0F;
 	border-bottom: 5px solid #EA4A00;
 	color: #FFFFFF;
-	margin-top: 20px;
 }
 
 header p {
@@ -116,7 +117,6 @@ footer {
 	border-top: 5px solid #EC791F;
 	font-size: 80%;
 	text-align: right;
-	margin-bottom: 20px;
 }
 
 @media (min-width: 992px) {
